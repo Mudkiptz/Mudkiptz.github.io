@@ -1,5 +1,5 @@
-# Mudkiptz.github.io
-# My Name
+
+# Bryant Nguyen
 
 ### I am an artist. This is my portfolio site.
 
