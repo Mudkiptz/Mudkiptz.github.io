@@ -1,20 +1,25 @@
-// declare variables here
+// x position variable
+var movement = 0;
 
-
-function setup() {
+function setup()
+{
+  // set canvas size
   createCanvas(500, 500);
+}
 
-  // set background color in grayscale:
+function draw()
+{
   background(150);
-  // draw rectangle
-  rect(100, 100, 200, 200)
-  // draw ellipse
-  ellipse(100, 100, 200, 200);
+
+  // set the fill color
+  fill(255, 200, 150);
+
+  // set the ellipse mode
+  ellipseMode(CENTER);
+
+  // increment x variable
+  movement = movement + 2;
+
+  // draw a circle
+  ellipse(movement, 100, 25, 25);
 }
-
-function draw() {
-  //
-}
-
-
-// write custom functions here
