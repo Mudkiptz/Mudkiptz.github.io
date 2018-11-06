@@ -9,3 +9,11 @@ body {
 h1 {
   padding: 20px 0px 10px 0px;
 }
+
+.images-sittingrain{
+  width: 1000px;
+  height: 1000px;
+  background-image: url(images/sittingrain.gif);
+  background-size: cover;
+  background-size: 100%
+}
