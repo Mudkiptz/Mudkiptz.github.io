@@ -8,15 +8,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
-
 <body>
+
+  <h1 style="font-family:courier;text-align:center;">Hello World -- The works of an artist!</h1>
+
 
 <div class="images-sittingrain"></div>
 
-    <body bgcolor="cyan text="black">
+    <body bgcolor="crimson" text="black">
     <marquee direction="right" bgcolor="white">
       <h4>
       Hello it me ^_^.
+
+  <audio controls>
+    <source src="audio/relaxingrain.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+  </audio>
+  <style>
+  #pop{
+    height: 280px;
+    width: 470px;
+    posititon: fixed;
+    bottom: 50%;
+    right: 50%;
+    border: 2px solid;
+    padding: 10px;
+    display: none;
+    background: #FFFFFF
+    border-radius: 9px;
+  }
+  #close{
+    right: 5;
+    top: 5;
+    float: right;
+  }
+  </style>
+
+  This is sample content.   This is sample content.   This is sample content.   This is sample content.
+  <button onclick="document.getElementById('pop').style.display='block'">click me!</button>
+  <div id="pop">
+  <button id="close" onclick="document.getElementById('pop').style.display='none'">X</button><br>
+
+    <a href="https://www.youtube.com/watch?v=CyQYgmjY3Lo"> This is a popup box </a>
+
+  </div>
     </h4>
     <marquee>
     </body>
