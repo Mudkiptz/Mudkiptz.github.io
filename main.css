@@ -4,16 +4,68 @@ body {
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
   padding: 30px 20px;
+  background-color: rgba(256,256,256, 0.5);
+  color: black;
 }
 
 h1 {
   padding: 10px 0px 10px 0px;
 }
 
-.images-sittingrain{
-  width: 1000px;
-  height: 1000px;
+
+html {
+  width: 100%;
+  height: 100%;
   background-image: url(images/sittingrain.gif);
   background-size: cover;
-  background-size: 100%
+  background-position: center;
+  background-repeat: repeat;
+}
+
+iframe {
+  max-width: 100%;
+  max-height: 90%;
+}
+
+#pop {
+  height: 280px;
+  width: 470px;
+  /* position: fixed; */
+  bottom: 50%;
+  right: 50%;
+  border: 2px solid;
+  padding: 10px;
+  display: none;
+  background: #FFFFFF border-radius: 9px;
+}
+
+.close {
+  right: 5;
+  top: 5;
+  float: right;
+}
+
+#popUp {
+  height: 280px;
+  width: 470px;
+  position: fixed;
+  bottom: 50%;
+  right: 50%;
+  border: 2px solid;
+  padding: 10px;
+  display: none;
+  background: #FFFFFF;
+   border-radius: 9px;
+}
+
+#popBelow {
+  height: 280px;
+  width: 470px;
+  bottom: 50%;
+  right: 50%;
+  border: 2px solid;
+  padding: 10px;
+  display: none;
+  background: #FFFFFF;
+   border-radius: 9px;
 }
